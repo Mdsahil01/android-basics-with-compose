@@ -136,9 +136,28 @@ BusinessCard
 
 ## 📱 Unit 1 Screenshots
 
-<div align="center">
-  <img src="docs/screenshots/birthday-card.jpg" width="200" alt="Birthday Card"/>
-  <img src="docs/screenshots/business-card.jpg" width="200" alt="Business Card"/>
+ <div align="center">
+
+<table>
+<tr>
+<td align="center">
+
+<b>🎂 Birthday Card</b><br><br>
+<img src="docs/screenshots/birthday-card.jpg" width="200" alt="Birthday Card"/>
+
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td align="center">
+
+<b>💼 Business Card</b><br><br>
+<img src="docs/screenshots/business-card.jpg" width="200" alt="Business Card"/>
+
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
