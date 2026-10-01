@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BirthdayTheme {
 
-                 BusinessCard()
+                  BusinessCard()
             }
         }
     }
@@ -60,13 +60,13 @@ class MainActivity : ComponentActivity() {
         ) {
             Text(
                 text = message,
-                fontSize = 100.sp,
-                lineHeight = 116.sp,
+                fontSize = 45.sp,
+                lineHeight = 56.sp,
                 textAlign = TextAlign.Center
             )
             Text(
                 text = from,
-                fontSize = 36.sp,
+                fontSize = 26.sp,
                 modifier = Modifier
                     .padding(16.dp)
             )

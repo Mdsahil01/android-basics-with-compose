@@ -137,8 +137,8 @@ BusinessCard
 ## 📱 Unit 1 Screenshots
 
 <div align="center">
-  <img src="docs/screenshots/birthday-card.jpg" width="300" alt="Birthday Card"/>
-  <img src="docs/screenshots/business-card.jpg" width="300" alt="Business Card"/>
+  <img src="docs/screenshots/birthday-card.jpg" width="200" alt="Birthday Card"/>
+  <img src="docs/screenshots/business-card.jpg" width="200" alt="Business Card"/>
 </div>
 
 ---
