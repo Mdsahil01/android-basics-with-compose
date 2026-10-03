@@ -33,7 +33,7 @@ This repository follows Google's official **Android Basics with Compose** course
 
 ### Unit 2 — Building App UI
 
-- [ ] Kotlin fundamentals
+- [x] Kotlin fundamentals *(in progress)*
 - [ ] Add a button to an app
 - [ ] Interacting with UI and state
 
@@ -133,6 +133,44 @@ BusinessCard
 - Basic UI hierarchy
 
 ---
+---
+
+## 🧩 Unit 2 — Kotlin Fundamentals
+
+Currently working through the Kotlin Fundamentals pathway in Google's Android Basics with Compose course.
+
+### Concepts Practiced
+
+#### 1. Conditionals
+
+- `if`
+- `if–else`
+- `if–else if–else`
+- `when`
+
+**What I learned:** How to control program flow using conditions and choose between different execution paths.
+
+#### 2. Null Safety
+
+- Nullability
+- Nullable types using `?`
+- Safe-call operator `?.`
+- Elvis operator `?:`
+
+**What I learned:** How Kotlin handles nullable values and provides ways to work safely with values that may be `null`.
+
+### Practice Files
+
+```text
+kotlinfundamentals/
+├── conditionals/
+│   ├── If_Elseif_Else.kt
+│   └── When.kt
+└── nullsafety/
+    └── Nullability.kt
+    
+
+```
 
 ## 📱 Unit 1 Screenshots
 
@@ -229,17 +267,16 @@ Each meaningful milestone is documented with:
 
 ## Unit 2 — Building App UI
 
-The next stage focuses on:
+Currently working through the **Kotlin Fundamentals** pathway.
 
-- Kotlin fundamentals
-- Buttons
-- User interaction
-- State
-- Recomposition
-- Building interactive Android applications
+Next steps:
+
+- Continue the remaining Kotlin Fundamentals lessons.
+- Practice the concepts independently.
+- Learn to add buttons and handle user interactions.
+- Explore state and recomposition in Jetpack Compose.
 
 More projects and screenshots will be added as the journey continues.
-
 ---
 
 # 📖 Course
