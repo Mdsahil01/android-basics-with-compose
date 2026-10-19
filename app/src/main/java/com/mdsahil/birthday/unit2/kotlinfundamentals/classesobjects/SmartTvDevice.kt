@@ -28,9 +28,19 @@ class SmartTvDevice(
         println("Speaker volume increased to $speakerVolume")
     }
 
+    fun decreaseVolume(){
+        speakerVolume--
+        println("Speaker volume decreased to $speakerVolume")
+    }
+
     fun nextChannel(){
         channelNumber++
         println("Channel number increased to $channelNumber")
+    }
+
+    fun previousChannel(){
+        channelNumber--
+        println("Channel number decreased to $channelNumber")
     }
 
 

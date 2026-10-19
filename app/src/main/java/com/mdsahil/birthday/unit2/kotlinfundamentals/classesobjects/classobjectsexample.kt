@@ -25,8 +25,13 @@ fun main() {
 
     smartHome.turnOnTv()
     smartHome.increaseTvVolume()
+    smartHome.decreaseTvVolume()
     smartHome.changeTvChannelToNext()
+    smartHome.changeTvChannelToPrevious()
 
     smartHome.turnOnLight()
     smartHome.increaseLightBrightness()
+    smartHome.decreaseLightBrightness()
+
+    smartHome.turnOffAllDevices()
 }

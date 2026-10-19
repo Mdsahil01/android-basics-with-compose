@@ -9,34 +9,66 @@ class SmartHome(
         private set
 
     fun turnOnTv(){
-        deviceTurnOnCount++
+        if (smartTvDevice.deviceStatus != "on") {
+            deviceTurnOnCount++
+        }
         smartTvDevice.turnOn()
     }
 
     fun turnOffTv(){
-        deviceTurnOnCount--
+        if (smartTvDevice.deviceStatus == "on") {
+            deviceTurnOnCount--
+        }
         smartTvDevice.turnOff()
     }
 
     fun increaseTvVolume(){
-        smartTvDevice.increaseSpeakerVolume()
+        if(smartTvDevice.deviceStatus == "on") {
+            smartTvDevice.increaseSpeakerVolume()
+        }
+    }
+
+    fun decreaseTvVolume(){
+        if (smartTvDevice.deviceStatus == "on"){
+            smartTvDevice.decreaseVolume()
+        }
     }
 
     fun changeTvChannelToNext(){
-        smartTvDevice.nextChannel()
+        if (smartTvDevice.deviceStatus == "on") {
+            smartTvDevice.nextChannel()
+        }
+    }
+
+    fun changeTvChannelToPrevious(){
+        if (smartTvDevice.deviceStatus == "on"){
+            smartTvDevice.previousChannel()
+        }
     }
 
     fun turnOnLight(){
-        deviceTurnOnCount++
+        if (smartLightDevice.deviceStatus != "on") {
+            deviceTurnOnCount++
+        }
         smartLightDevice.turnOn()
     }
     fun turnOffLight(){
-        deviceTurnOnCount--
-        smartTvDevice.turnOff()
+        if (smartLightDevice.deviceStatus == "on") {
+            deviceTurnOnCount--
+        }
+        smartLightDevice.turnOff()
     }
 
     fun increaseLightBrightness(){
+        if (smartLightDevice.deviceStatus == "on"){
         smartLightDevice.increasingBrightness()
+        }
+    }
+
+    fun decreaseLightBrightness(){
+        if (smartLightDevice.deviceStatus == "on") {
+            smartLightDevice.decreaseBrightness()
+        }
     }
 
     fun turnOffAllDevices(){

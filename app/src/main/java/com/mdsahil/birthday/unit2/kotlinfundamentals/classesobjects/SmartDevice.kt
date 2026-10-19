@@ -17,4 +17,8 @@ open class SmartDevice(
         deviceStatus = "off"
     }
 
+    fun printDeviceInfo(){
+        println("Device name: $name, category: $category, type: $deviceType")
+    }
+
 }
