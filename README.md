@@ -33,7 +33,7 @@ This repository follows Google's official **Android Basics with Compose** course
 
 ### Unit 2 — Building App UI
 
-- [x] Kotlin fundamentals *(in progress)*
+- [x] Kotlin fundamentals 
 - [ ] Add a button to an app
 - [ ] Interacting with UI and state
 
@@ -134,43 +134,90 @@ BusinessCard
 
 ---
 ---
+# 🧩 Unit 2 — Kotlin Fundamentals
 
-## 🧩 Unit 2 — Kotlin Fundamentals
+**Status:** Kotlin Fundamentals completed ✅
 
-Currently working through the Kotlin Fundamentals pathway in Google's Android Basics with Compose course.
+Completed the Kotlin Fundamentals lessons in Google's **Android Basics with Compose** course, along with practical coding challenges to reinforce the concepts.
 
-### Concepts Practiced
+## Concepts Practiced
 
-#### 1. Conditionals
+### 1. Conditionals and Control Flow
 
-- `if`
-- `if–else`
-- `if–else if–else`
-- `when`
+- `if`, `if-else`, and `if-else if-else`
+- `when` expressions
+- Age-based movie ticket pricing
 
-**What I learned:** How to control program flow using conditions and choose between different execution paths.
+### 2. Null Safety
 
-#### 2. Null Safety
-
-- Nullability
 - Nullable types using `?`
+- Handling `null` values
 - Safe-call operator `?.`
 - Elvis operator `?:`
+- Nullable object references
 
-**What I learned:** How Kotlin handles nullable values and provides ways to work safely with values that may be `null`.
+### 3. Classes and Objects
 
-### Practice Files
+- Classes and constructors
+- Properties and methods
+- Object creation and interaction
+- Inheritance and method overriding
+- Visibility modifiers and access control
+- Delegated properties
+- Custom property validation using `RangeRegulator`
+
+**Practice project:** Smart Home device system with a smart TV, smart light, and central controller.
+
+### 4. Function Types and Lambda Expressions
+
+- Lambda expressions
+- Function types, such as `(Int) -> String`
+- Higher-order functions
+- Passing functions as arguments
+- Returning functions from functions
+- Temperature conversion using lambda expressions
+
+## Practical Challenges Completed
+
+- Movie ticket price calculator
+- Temperature conversion program
+- Song data model
+- Person profile with nullable references
+- Smart Home device controller
+
+## Key Takeaways
+
+- Write Kotlin programs using conditional logic.
+- Work with nullable values safely.
+- Model real-world objects using classes and inheritance.
+- Pass functions as arguments and return functions.
+- Apply Kotlin fundamentals through practical coding exercises.
+
+## 📂 Practice File Structure
 
 ```text
 kotlinfundamentals/
 ├── conditionals/
 │   ├── If_Elseif_Else.kt
 │   └── When.kt
-└── nullsafety/
-    └── Nullability.kt
-    
-
+│
+├── nullsafety/
+│   └── Nullability.kt
+│
+├── classesobjects/
+│   ├── classobjectsexample.kt
+│   ├── SmartDevice.kt
+│   ├── SmartTvDevice.kt
+│   ├── SmartLightDevice.kt
+│   ├── SmartHome.kt
+│   └── RangeRegulator.kt
+│
+└── functiontypesandlambda/
+    └── FunctionTypesAndLambda.kt
 ```
+
+*Note: This tree represents the intended organization of the Kotlin practice files. Update the filenames or folders to match your actual Android Studio project.*
+
 
 ## 📱 Unit 1 Screenshots
 
@@ -267,14 +314,20 @@ Each meaningful milestone is documented with:
 
 ## Unit 2 — Building App UI
 
-Currently working through the **Kotlin Fundamentals** pathway.
+Kotlin Fundamentals completed. Moving forward with the remaining Unit 2 lessons.
 
-Next steps:
+## Next Steps
 
-- Continue the remaining Kotlin Fundamentals lessons.
-- Practice the concepts independently.
-- Learn to add buttons and handle user interactions.
-- Explore state and recomposition in Jetpack Compose.
+- [x] Complete Kotlin Fundamentals
+- [ ] Add a button to an app
+- [ ] Interact with UI elements
+- [ ] Understand state and recomposition in Jetpack Compose
+- [ ] Build interactive Android interfaces
+
+## Next Milestone
+
+Apply Kotlin fundamentals to interactive Android UI development with Jetpack Compose.
+
 
 More projects and screenshots will be added as the journey continues.
 ---
