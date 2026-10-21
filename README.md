@@ -34,8 +34,8 @@ This repository follows Google's official **Android Basics with Compose** course
 ### Unit 2 — Building App UI
 
 - [x] Kotlin fundamentals 
-- [ ] Add a button to an app
-- [ ] Interacting with UI and state
+- [x] Add a button to an app - Dice Roller
+- [ ] Interacting with UI and state - Lemonade
 
 ### Unit 3 — Display Lists and Use Material Design
 
@@ -193,28 +193,28 @@ Completed the Kotlin Fundamentals lessons in Google's **Android Basics with Comp
 - Pass functions as arguments and return functions.
 - Apply Kotlin fundamentals through practical coding exercises.
 
-## 📂 Practice File Structure
+ 
+# 🧩 Unit 2 —  🎲 Dice Roller
 
-```text
-kotlinfundamentals/
-├── conditionals/
-│   ├── If_Elseif_Else.kt
-│   └── When.kt
-│
-├── nullsafety/
-│   └── Nullability.kt
-│
-├── classesobjects/
-│   ├── classobjectsexample.kt
-│   ├── SmartDevice.kt
-│   ├── SmartTvDevice.kt
-│   ├── SmartLightDevice.kt
-│   ├── SmartHome.kt
-│   └── RangeRegulator.kt
-│
-└── functiontypesandlambda/
-    └── FunctionTypesAndLambda.kt
-```
+An interactive Android app built with Kotlin and Jetpack Compose as part of Google's Android Basics with Compose course.
+
+The app displays a dice image and lets users roll the dice by tapping a button.
+
+## Concepts Practiced
+
+- `@Composable` functions
+- `Button` and click handling with `onClick`
+- `Image` and drawable resources
+- State management using `remember` and `mutableStateOf`
+- Random number generation with `(1..6).random()`
+- Updating the UI through recomposition
+- Layouts and `Modifier`
+- Connecting a Compose screen to the existing Android activity
+
+## What I Learned
+
+How user interactions update state and how Jetpack Compose reacts to those changes by recomposing the UI.
+
 
 *Note: This tree represents the intended organization of the Kotlin practice files. Update the filenames or folders to match your actual Android Studio project.*
 
@@ -246,6 +246,51 @@ kotlinfundamentals/
 </div>
 
 ---
+---
+
+## 📱 Unit 2 — App Screenshots
+
+| Dice Roller |
+|:---:|
+| <img src="docs/screenshots/dice-roller.jpg" width="250" alt="Dice Roller app screenshot"/> |
+| *Roll the dice by tapping the button.* |
+
+---
+### 📂 Project File Structure
+
+```text
+app/src/main/
+├── java/com/mdsahil/birthday/
+│   ├── MainActivity.kt
+│   └── unit2/
+│       ├── kotlinfundamentals/
+│       │   ├── conditionals/
+│       │   ├── nullsafety/
+│       │   ├── classesobjects/
+│       │   └── functiontypesandlambda/
+│       │
+│       └── diceroller/
+│           └── DiceRollerScreen.kt
+│
+└── res/
+    └── drawable/
+        ├── dice_1.xml
+        ├── dice_2.xml
+        ├── dice_3.xml
+        ├── dice_4.xml
+        ├── dice_5.xml
+        └── dice_6.xml
+
+docs/
+└── screenshots/
+    ├── birthday-card.jpg
+    ├── business-card.jpg
+    └── dice-roller.jpg
+```
+
+*This is an illustrative structure. Adjust filenames and paths to match your actual Android Studio project.*
+
+
 
 # 📸 Project Documentation
 
@@ -256,6 +301,7 @@ docs/
 └── screenshots/
     ├── birthday-card.jpg
     └── business-card.jpg
+    └── dice-roller.jpg
 ```
 
 The screenshots document the visible result of each learning milestone and will continue to be updated as new projects are completed.
@@ -319,8 +365,8 @@ Kotlin Fundamentals completed. Moving forward with the remaining Unit 2 lessons.
 ## Next Steps
 
 - [x] Complete Kotlin Fundamentals
-- [ ] Add a button to an app
-- [ ] Interact with UI elements
+- [x] Add a button to an app - Dice Roller
+- [ ] Interact with UI elements and state - Lemonade
 - [ ] Understand state and recomposition in Jetpack Compose
 - [ ] Build interactive Android interfaces
 

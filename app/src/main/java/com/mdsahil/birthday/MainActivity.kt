@@ -33,6 +33,7 @@ import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Phone
 import androidx.compose.ui.Alignment
+import com.mdsahil.birthday.unit2.diceroller.DiceRollerApp
 
 
 class MainActivity : ComponentActivity() {
@@ -42,7 +43,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BirthdayTheme {
 
-                  BusinessCard()
+                DiceRollerApp()
             }
         }
     }
