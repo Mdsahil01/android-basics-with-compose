@@ -35,7 +35,7 @@ This repository follows Google's official **Android Basics with Compose** course
 
 - [x] Kotlin fundamentals 
 - [x] Add a button to an app - Dice Roller,Lemonade
-- [] Interacting with UI and state 
+- [ ] Interacting with UI and state 
 
 ### Unit 3 — Display Lists and Use Material Design
 
