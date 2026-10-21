@@ -279,17 +279,19 @@ How to manage UI state, handle repeated user interactions, and update the interf
 
 ### 🎲 Dice Roller
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/>
-      <br/>
-      <b>Dice Roller</b>
-    </td>
-  </tr>
-</table>
+
+<div align="center">
+
+### 🎲 Dice Roller
+
+<img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/>
+
+**Dice Roller**
 
 *Roll the dice by tapping the button.*
+
+</div>
+
 
 ### 🍋 Lemonade App
 
