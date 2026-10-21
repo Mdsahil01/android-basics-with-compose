@@ -34,8 +34,8 @@ This repository follows Google's official **Android Basics with Compose** course
 ### Unit 2 — Building App UI
 
 - [x] Kotlin fundamentals 
-- [x] Add a button to an app - Dice Roller
-- [ ] Interacting with UI and state - Lemonade
+- [x] Add a button to an app - Dice Roller,Lemonade
+- [] Interacting with UI and state 
 
 ### Unit 3 — Display Lists and Use Material Design
 
@@ -219,6 +219,30 @@ How user interactions update state and how Jetpack Compose reacts to those chang
 *Note: This tree represents the intended organization of the Kotlin practice files. Update the filenames or folders to match your actual Android Studio project.*
 
 
+---
+
+## 🍋 Unit 2 — Lemonade App
+
+An interactive Android app built with Kotlin and Jetpack Compose as part of Google's Android Basics with Compose course.
+
+The app guides users through four stages: selecting a lemon, squeezing it, drinking the lemonade, and starting again.
+
+### Concepts Practiced
+
+- `@Composable` functions
+- `Image` and drawable resources
+- State management using `remember` and `mutableIntStateOf`
+- Conditional UI using `when`
+- Click handling with `Modifier.clickable`
+- Random number generation using `(2..4).random()`
+- Updating images and text based on state
+- UI recomposition in Jetpack Compose
+
+### What I Learned
+
+How to manage UI state, handle repeated user interactions, and update the interface according to the current step in a simple interactive application.
+
+
 ## 📱 Unit 1 Screenshots
 
  <div align="center">
@@ -248,14 +272,55 @@ How user interactions update state and how Jetpack Compose reacts to those chang
 ---
 ---
 
-## 📱 Unit 2 — App Screenshots
-
-| Dice Roller |
-|:---:|
-| <img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/> |
-| *Roll the dice by tapping the button.* |
 
 ---
+
+## 📱 Unit 2 — App Screenshots
+
+### 🎲 Dice Roller
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/>
+      <br/>
+      <b>Dice Roller</b>
+    </td>
+  </tr>
+</table>
+
+*Roll the dice by tapping the button.*
+
+### 🍋 Lemonade App
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/lemonade-tree.png" width="200" alt="Lemonade app - lemon tree"/>
+      <br/>
+      <b>1. Select a lemon</b>
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/lemonade-squeeze.png" width="200" alt="Lemonade app - squeezing a lemon"/>
+      <br/>
+      <b>2. Squeeze the lemon</b>
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/lemonade-drink.png" width="200" alt="Lemonade app - glass of lemonade"/>
+      <br/>
+      <b>3. Drink the lemonade</b>
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/lemonade-restart.png" width="200" alt="Lemonade app - empty glass"/>
+      <br/>
+      <b>4. Start again</b>
+    </td>
+  </tr>
+</table>
+
+
+---
+
 ### 📂 Project File Structure
 
 ```text
@@ -269,8 +334,11 @@ app/src/main/
 │       │   ├── classesobjects/
 │       │   └── functiontypesandlambda/
 │       │
-│       └── diceroller/
-│           └── DiceRollerScreen.kt
+│       ├── diceroller/
+│       │   └── DiceRollerScreen.kt
+│       │
+│       └── lemonade/
+│           └── LemonadeApp.kt
 │
 └── res/
     └── drawable/
@@ -279,16 +347,24 @@ app/src/main/
         ├── dice_3.xml
         ├── dice_4.xml
         ├── dice_5.xml
-        └── dice_6.xml
+        ├── dice_6.xml
+        ├── lemon_tree.*
+        ├── lemon_squeeze.*
+        ├── lemon_drink.*
+        └── lemon_restart.*
 
 docs/
 └── screenshots/
     ├── birthday-card.jpg
     ├── business-card.jpg
-    └── dice-roller.jpg
+    ├── dice-roller.jpg
+    ├── lemonade-tree.png
+    ├── lemonade-squeeze.png
+    ├── lemonade-drink.png
+    └── lemonade-restart.png
 ```
 
-*This is an illustrative structure. Adjust filenames and paths to match your actual Android Studio project.*
+*The `*` extensions represent the actual image file extensions in your project.*
 
 
 
@@ -302,6 +378,10 @@ docs/
     ├── birthday-card.jpg
     └── business-card.jpg
     └── dice-roller.jpg
+    ├── lemonade-tree.png
+    ├── lemonade-squeeze.png
+    ├── lemonade-drink.png
+    └── lemonade-restart.png
 ```
 
 The screenshots document the visible result of each learning milestone and will continue to be updated as new projects are completed.
@@ -365,8 +445,8 @@ Kotlin Fundamentals completed. Moving forward with the remaining Unit 2 lessons.
 ## Next Steps
 
 - [x] Complete Kotlin Fundamentals
-- [x] Add a button to an app - Dice Roller
-- [ ] Interact with UI elements and state - Lemonade
+- [x] Add a button to an app - Dice Roller,Lemonade
+- [ ] Interact with UI elements and state  
 - [ ] Understand state and recomposition in Jetpack Compose
 - [ ] Build interactive Android interfaces
 
