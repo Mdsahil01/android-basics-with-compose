@@ -252,7 +252,7 @@ How user interactions update state and how Jetpack Compose reacts to those chang
 
 | Dice Roller |
 |:---:|
-| <img src="docs/screenshots/dice-roller.jpg" width="250" alt="Dice Roller app screenshot"/> |
+| <img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/> |
 | *Roll the dice by tapping the button.* |
 
 ---
