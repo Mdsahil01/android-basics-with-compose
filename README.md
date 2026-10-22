@@ -277,7 +277,7 @@ How to manage UI state, handle repeated user interactions, and update the interf
 
 ## 📱 Unit 2 — App Screenshots
 
-### 🎲 Dice Roller
+
 
 
 <div align="center">

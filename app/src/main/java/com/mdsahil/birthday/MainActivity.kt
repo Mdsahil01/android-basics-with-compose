@@ -35,6 +35,7 @@ import androidx.compose.material.icons.filled.Phone
 import androidx.compose.ui.Alignment
 import com.mdsahil.birthday.unit2.diceroller.DiceRollerApp
 import com.mdsahil.birthday.unit2.lemonade.LemonadeApp
+import com.mdsahil.birthday.unit2.tiptime.TipTimeScreen
 
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +45,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BirthdayTheme {
 
-                LemonadeApp()
+                TipTimeScreen()
             }
         }
     }
