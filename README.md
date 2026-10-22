@@ -35,8 +35,8 @@ This repository follows Google's official **Android Basics with Compose** course
 
 - [x] Kotlin fundamentals 
 - [x] Add a button to an app - Dice Roller,Lemonade
-- [ ] Interacting with UI and state 
-
+- [ ] Interacting with UI and state \
+ -[x] Intro to state in Compose — Tip Time
 ### Unit 3 — Display Lists and Use Material Design
 
 - [ ] More Kotlin fundamentals
@@ -242,6 +242,28 @@ The app guides users through four stages: selecting a lemon, squeezing it, drink
 
 How to manage UI state, handle repeated user interactions, and update the interface according to the current step in a simple interactive application.
 
+# 🧮 Unit 2 — Tip Time
+
+An interactive tip calculator built with Kotlin and Jetpack Compose as part of Google's Android Basics with Compose course.
+
+The app accepts a bill amount, calculates a 15% tip, and displays the result using Indian rupee currency formatting.
+
+## Concepts Practiced
+
+- `@Composable` functions
+- Text input using `TextField`
+- State management using `remember` and `mutableStateOf`
+- Handling input changes using `onValueChange`
+- Converting strings to numbers using `toDoubleOrNull()`
+- Null handling using the Elvis operator `?:`
+- Calculating tips using a Kotlin function
+- Currency formatting using `NumberFormat`
+- Keyboard configuration using `KeyboardOptions` and `KeyboardType.Number`
+- UI recomposition in Jetpack Compose
+
+## What I Learned
+
+How Compose state connects user input to calculations and UI updates, and how to use state hoisting to share state between composables.
 
 ## 📱 Unit 1 Screenshots
 
@@ -277,51 +299,28 @@ How to manage UI state, handle repeated user interactions, and update the interf
 
 ## 📱 Unit 2 — App Screenshots
 
-
-
-
-<div align="center">
-
-### 🎲 Dice Roller
-
-<img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/>
-
-**Dice Roller**
-
-*Roll the dice by tapping the button.*
-
-</div>
-
-
-### 🍋 Lemonade App
+### 🎲 Dice Roller, 🍋 Lemonade & 🧮 Tip Time
 
 <table>
   <tr>
     <td align="center">
-      <img src="docs/screenshots/lemonade-tree.png" width="200" alt="Lemonade app - lemon tree"/>
-      <br/>
-      <b>1. Select a lemon</b>
+      <b>🎲 Dice Roller</b><br><br>
+      <img src="docs/screenshots/dice-roller.jpg" width="200" alt="Dice Roller App"/><br><br>
+      <i>Roll the dice by tapping the button.</i>
     </td>
     <td align="center">
-      <img src="docs/screenshots/lemonade-squeeze.png" width="200" alt="Lemonade app - squeezing a lemon"/>
-      <br/>
-      <b>2. Squeeze the lemon</b>
+      <b>🍋 Lemonade</b><br><br>
+      <img src="docs/screenshots/lemonade-tree.png" width="200" alt="Lemonade App"/><br><br>
+      <i>Progress through the lemonade-making steps.</i>
     </td>
     <td align="center">
-      <img src="docs/screenshots/lemonade-drink.png" width="200" alt="Lemonade app - glass of lemonade"/>
-      <br/>
-      <b>3. Drink the lemonade</b>
-    </td>
-    <td align="center">
-      <img src="docs/screenshots/lemonade-restart.png" width="200" alt="Lemonade app - empty glass"/>
-      <br/>
-      <b>4. Start again</b>
+      <b>🧮 Tip Time</b><br><br>
+      <img src="docs/screenshots/tip-time.png" width="200" alt="Tip Time App"/><br><br>
+      <i>Calculate a 15% tip in Indian rupees.</i>
     </td>
   </tr>
 </table>
 
-
----
 
 ### 📂 Project File Structure
 
@@ -340,8 +339,9 @@ app/src/main/
 │       │   └── DiceRollerScreen.kt
 │       │
 │       └── lemonade/
-│           └── LemonadeApp.kt
-│
+│       │   └── LemonadeApp.kt
+│       └── tiptime/
+│           └── TipTimeScreen.kt
 └── res/
     └── drawable/
         ├── dice_1.xml
@@ -364,6 +364,7 @@ docs/
     ├── lemonade-squeeze.png
     ├── lemonade-drink.png
     └── lemonade-restart.png
+    ├── tip-time.png
 ```
 
 *The `*` extensions represent the actual image file extensions in your project.*
@@ -448,7 +449,8 @@ Kotlin Fundamentals completed. Moving forward with the remaining Unit 2 lessons.
 
 - [x] Complete Kotlin Fundamentals
 - [x] Add a button to an app - Dice Roller,Lemonade
-- [ ] Interact with UI elements and state  
+- [ ] Interact with UI elements and state \
+  -[x] Intro to state in Compose — Tip Time 
 - [ ] Understand state and recomposition in Jetpack Compose
 - [ ] Build interactive Android interfaces
 
