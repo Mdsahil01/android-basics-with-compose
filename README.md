@@ -35,8 +35,8 @@ This repository follows Google's official **Android Basics with Compose** course
 
 - [x] Kotlin fundamentals 
 - [x] Add a button to an app - Dice Roller,Lemonade
-- [ ] Interacting with UI and state \
- -[x] Intro to state in Compose — Tip Time
+- [ ] Interacting with UI and state 
+- [x] Intro to state in Compose — Tip Time
 ### Unit 3 — Display Lists and Use Material Design
 
 - [ ] More Kotlin fundamentals
@@ -242,28 +242,51 @@ The app guides users through four stages: selecting a lemon, squeezing it, drink
 
 How to manage UI state, handle repeated user interactions, and update the interface according to the current step in a simple interactive application.
 
-# 🧮 Unit 2 — Tip Time
+# 🧮 Unit 2 --- Tip Time
 
-An interactive tip calculator built with Kotlin and Jetpack Compose as part of Google's Android Basics with Compose course.
+An interactive tip calculator built with Kotlin and Jetpack Compose as
+part of Google's Android Basics with Compose course.
 
-The app accepts a bill amount, calculates a 15% tip, and displays the result using Indian rupee currency formatting.
+The app allows users to enter a bill amount, choose a custom tip
+percentage, and calculate the tip amount. It also includes an option to
+round up the tip.
+
+## Features
+
+-   Enter a custom bill amount
+-   Enter a custom tip percentage
+-   Calculate the tip amount dynamically
+-   Round up the tip using a switch
+-   Display the calculated tip using Indian rupee currency formatting
+-   Numeric keyboard with Next and Done actions
+-   Money and percentage icons in the input fields
 
 ## Concepts Practiced
 
-- `@Composable` functions
-- Text input using `TextField`
-- State management using `remember` and `mutableStateOf`
-- Handling input changes using `onValueChange`
-- Converting strings to numbers using `toDoubleOrNull()`
-- Null handling using the Elvis operator `?:`
-- Calculating tips using a Kotlin function
-- Currency formatting using `NumberFormat`
-- Keyboard configuration using `KeyboardOptions` and `KeyboardType.Number`
-- UI recomposition in Jetpack Compose
+-   `@Composable` functions
+-   Reusable composables
+-   `TextField` and numeric input
+-   State management using `remember` and `mutableStateOf`
+-   Handling input changes using `onValueChange`
+-   Converting strings to numbers using `toDoubleOrNull()`
+-   Null handling using the Elvis operator `?:`
+-   Keyboard configuration using `KeyboardOptions`, `KeyboardType`, and
+    `ImeAction`
+-   State handling using `Switch`
+-   Passing state and callbacks between composables
+-   Tip calculation using Kotlin functions
+-   Rounding values using `ceil()`
+-   Currency formatting using `NumberFormat`
+-   UI recomposition in Jetpack Compose
 
 ## What I Learned
 
-How Compose state connects user input to calculations and UI updates, and how to use state hoisting to share state between composables.
+How to build an interactive calculator using Compose state, handle
+custom user input, pass state between composables, and update
+calculations dynamically.
+
+I also practiced implementing a round-up option and formatting
+calculated values as currency.
 
 ## 📱 Unit 1 Screenshots
 
@@ -449,8 +472,8 @@ Kotlin Fundamentals completed. Moving forward with the remaining Unit 2 lessons.
 
 - [x] Complete Kotlin Fundamentals
 - [x] Add a button to an app - Dice Roller,Lemonade
-- [ ] Interact with UI elements and state \
-  -[x] Intro to state in Compose — Tip Time 
+- [x] Intro to state in Compose — Tip Time
+- [ ] Interact with UI elements and state
 - [ ] Understand state and recomposition in Jetpack Compose
 - [ ] Build interactive Android interfaces
 
