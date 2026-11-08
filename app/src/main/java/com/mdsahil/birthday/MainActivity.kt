@@ -33,6 +33,7 @@ import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Phone
 import androidx.compose.ui.Alignment
+import com.mdsahil.birthday.unit2.artspace.ArtSpaceScreen
 import com.mdsahil.birthday.unit2.diceroller.DiceRollerApp
 import com.mdsahil.birthday.unit2.lemonade.LemonadeApp
 import com.mdsahil.birthday.unit2.tiptime.TipTimeScreen
@@ -45,7 +46,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BirthdayTheme {
 
-                TipTimeScreen()
+                ArtSpaceScreen()
             }
         }
     }
